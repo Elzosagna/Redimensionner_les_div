@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+
+<center><p id="demo">Hello World</p></center>
+
+        <script type="text/javascript">
+            var p = document.querySelector('#demo')
+            function grd()
+            {
+                p.style.fontSize="50px";
+            }
+            
+            p.addEventListener('click', grd)
+
+        </script>
+
+        <!--Un autre methode-->
+    <!--<button type="button" onclick="mysize()">Click On</button>
+    <p id="taille">Hello World</p>
+    <script type="text/javascript">
+        var x = 0;
+        function mysize()
+        {
+            if (x==0)
+             {
+                document.getElementById("taille").style.fontSize="50px"; 
+                x=1;   
+            }
+            else
+            {
+                document.getElementById("taille").style.fontSize="25px";
+                x=0;
+            }   
+        }
+    </script>-->
+
+</body>
+</html>
